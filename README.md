@@ -20,5 +20,6 @@ Não utilizar bibliotecas ou frameworks.
   - **JavaScript**
     - Módulos;
     - Eventos DOM.
-  - **GitHub**
-    - GitHub Pages.
+  - **Git e GitHub**
+    - GitHub Pages;
+    - Git Flow.
