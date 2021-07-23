@@ -155,9 +155,6 @@
         color: white;
         fill: white;
     }
-    footer p#data{
-        text-align: right;
-    }
     svg {
         width: 20px;
         height: 20px;
