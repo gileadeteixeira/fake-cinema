@@ -1,5 +1,8 @@
 # FAKE CINEMA
-**[Acesse](https://gileadeteixeira.github.io/fake-cinema)**
+**Clique ou aponte a câmera para acessar**
+
+[![qrcode_fake_cinema](https://user-images.githubusercontent.com/77688036/126810467-60941bc6-0f1d-4a78-b618-cb97393c1d31.png)](https://gileadeteixeira.github.io/fake-cinema)
+
 
 ![image](https://user-images.githubusercontent.com/77688036/126782425-8a893d18-3483-4185-b666-befdd6bf7b1a.png)
 ---
