@@ -113,7 +113,7 @@ btnGenericos.addEventListener('click', (e)=>{
 
     const btn = document.createElement('button');
     btn.id = 'btnExit';
-    btn.innerHTML = 'x';
+    btn.innerHTML = 'X';
 
     btn.addEventListener('click', (e)=>{
         e.preventDefault();
