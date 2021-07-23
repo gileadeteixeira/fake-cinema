@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand&display=swap');
+
+@media only screen and (min-width: 280px) {
+    body{
+        margin: 0px;
+        background-color: #eee;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 9px;
+    }
+    header{        
+        padding: 15px;
+        background-color: burlywood;
+        text-align: center;        
+    }
+    header div{
+        width: fit-content;
+        margin: auto;
+    }
+    header h1{
+        margin: auto;
+        padding: 20px;
+        background-color: chocolate;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    header p{
+        margin: auto;
+        margin-top: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+    }
+    nav{
+        background-color: chocolate;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+    }
+    nav div{
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav div ul {
+        list-style: none;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav div ul li{
+        display: inline-block;
+        margin: 0px;
+    }
+    nav div ul li a{
+        display: inline-block;
+        padding: 1px;
+        margin: 25px;
+        color: black;
+        text-decoration: none;
+    }
+    nav a:hover, nav div ul li.ativo a{
+        color: white;
+        border-bottom: solid 1px #eee; 
+    }
+    section{
+        text-align: center;
+    }
+    div.loadMoviesArea{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    div.loadMoviesArea button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        border: none;
+        border-radius: 40px;
+        padding: 5px;
+        transition: all 0.3s ease;
+    }
+    div.loadMoviesArea button:hover, div.loadMoviesArea button:focus, div.loadMoviesArea button:active{
+        color: white;
+        cursor: pointer;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    }
+    div.exitArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    div.exitArea button#btnExit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 10px;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+        background-color: burlywood;
+        font-family: 'Quicksand', sans-serif;
+        transition: all 0.3s ease;
+    }
+    #btnExit:hover{
+        color: white;
+        cursor: pointer;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    }
+    div.showArea{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    div.showArea>div {
+        padding: 10px;
+        width: fit-content;
+    }
+    div#loremArea{
+        padding: 30px;
+        text-align: justify;
+        border-top: solid black 1px;
+    }
+    footer{
+        background-color: burlywood;
+        padding: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    footer ul{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+    }
+    footer li{
+        margin: 0px;
+        display: inline-block;
+        padding-right: 10px;
+        padding-left: 10px;        
+    }
+    footer a{
+        color: black;
+        text-decoration: none;
+    }
+    footer a:hover{
+        cursor: pointer;
+        color: white;
+        fill: white;
+    }
+    footer p#data{
+        text-align: right;
+    }
+    svg {
+        width: 20px;
+        height: 20px;
+        opacity: 50%;
+    }
+    div.movies{
+        text-align: center;
+        margin: 2px;
+        padding: 5px;
+        transition: all 0.4s ease;
+    }
+    div.movies img{
+        width: 120px;
+        height: 180px;
+    }
+    div.movies:hover, div.movies:focus, div.movies:active{
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+        color: chocolate;
+        cursor: pointer;
+    }
+    .fixoNoTopo{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+    .fixoNoTopo + .showsSection{
+        margin-top: 45px;
+    }
+}
+@media only screen and (min-width: 432px){
+    body{
+        font-size: 15px;
+    }
+    header h1{
+        font-size: 25px;
+    }
+    header p{
+        font-size: 18px;
+    }
+    div.loadMoviesArea button{
+        font-size: 15px;
+        padding: 7px;
+    }
+    div.exitArea button#btnExit{
+        font-size: 15px;
+        border-radius: 17.5px;
+        width: 35px;
+        height: 35px;
+    }
+    .fixoNoTopo + .showsSection{
+        margin-top: 45px;
+    }
+}
+@media only screen and (min-width: 576px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        padding: 30px;
+    }
+    header h1{
+        font-size: 50px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    }
+    header p{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    nav{
+        height: 45px;
+    }
+    div.loadMoviesArea{
+        padding: 40px;
+    }
+    div.loadMoviesArea button{
+        font-size: 15px;
+        width: 200px;
+        border-radius: 40px;
+        padding: 10px;
+    }
+    div.exitArea button#btnExit{
+        font-size: 15px;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    div.showArea{
+        flex-flow: row wrap;
+    }
+    div.showArea :nth-child(1){
+        order: 1;
+    }
+    div.showArea :nth-child(2){
+        order: 2;
+    }
+    div.showArea :nth-child(3){
+        order: 3;
+    }
+    div.showArea :nth-child(4){
+        order: 4;
+    }
+    div.showArea :nth-child(5){
+        order: 5;
+    }
+    div.showArea :nth-child(6){
+        order: 6;
+    }
+    div#loremArea{
+        padding: 70px;      
+    }
+    footer{
+        padding: 10px;
+    }
+    footer ul{
+        padding: 0px;
+        margin: 0px;
+    }
+    footer li{
+        margin: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    footer p#data{
+        margin-right: 60px;
+    }
+    svg {
+        width: 50px;
+        height: 50px;
+        opacity: 50%;
+    }
+    div.movies img{
+        width: 180px;
+        height: 270px;
+    }
+    .fixoNoTopo + .showsSection{
+        margin-top: 60px;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 70px;
+    }
+    header p{
+        font-size: 40px;
+    }
+    nav{
+        height: 55px;
+    }
+    div.loadMoviesArea button{
+        font-size: 20px;
+        width: 300px;
+    }
+    div.exitArea button#btnExit{
+        font-size: 20px;
+        border-radius: 25px;
+        width: 50px;
+        height: 50px;
+    } 
+    div#loremArea{
+        padding: 110px;       
+    }
+    footer p#data{
+        margin-right: 100px;
+    }
+    .fixoNoTopo + .showsSection{
+        margin-top: 70px;
+    }
+}
