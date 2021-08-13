@@ -1,6 +1,6 @@
 # FAKE CINEMA
 
-<a href="https://gileadeteixeira.github.io/tip-calculator-app/" target="_blank" ><img width="200px" align="center" src="https://user-images.githubusercontent.com/77688036/129353128-5d572e90-8f3a-4f30-984a-988a3171d6f3.png" alt="qr_code_splitter"></a> **Clique, toque ou aponte a câmera.**
+<a href="https://gileadeteixeira.github.io/fake-cinema/" target="_blank" ><img width="200px" align="center" src="https://user-images.githubusercontent.com/77688036/129353128-5d572e90-8f3a-4f30-984a-988a3171d6f3.png" alt="qr_code_splitter"></a> **Clique, toque ou aponte a câmera.**
 
 
 ![image](https://user-images.githubusercontent.com/77688036/126782425-8a893d18-3483-4185-b666-befdd6bf7b1a.png)
